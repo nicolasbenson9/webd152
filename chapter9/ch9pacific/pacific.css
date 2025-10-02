@@ -181,6 +181,15 @@ td { text-align: center; /* ta:center */ }
 background-color: #ffcd6f; /* bgc:#ffcd6f */
   }
   
+  tr {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+tr:hover {
+  background-color: #e0ffe0;
+  color: #003300;
+}
+  
 @media (max-width: 32.5rem) {
     body {
         background-image: none;
